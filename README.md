@@ -8,17 +8,6 @@
 数据处理：缺失值填补、正则提取、类别特征降维
 机器学习：自动化预处理、模型调参、评估指标输出
 可视化部署：一键启动的网页应用，实时预测与展示结果
-
-文件结构
-house-price-prediction/
-│
-├─ data/
-│   └─ house_prices.csv       # 原始数据示例
-├─ app.py                     # Streamlit 前端入口
-├─ train_model.py             # 数据处理与模型训练脚本
-├─ house_price_model.pkl      # 训练好的模型（可选）
-└─ requirements.txt           # 依赖列表
-
 环境依赖
 建议使用 Python 3.9+。
 主要依赖：
